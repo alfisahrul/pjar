@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Whack-a-Mole Game</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{ url_for('static', filename='style.css') }}"
+    />
+    <link
+      rel="icon"
+      type="image/ico"
+      href="{{ url_for('static',filename='Logo-Gunadarma.ico')}}"
+    />
+  </head>
+  <body>
+    <h1>Whack-a-Mole</h1>
+    <div id="game-board">
+      <!-- Area permainan -->
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+  </body>
+</html>
